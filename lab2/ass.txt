@@ -1,0 +1,36 @@
+Дараах асуултуудад хариулж тайлан бичиж кодын хамт SISI - ээр илгээнэ. 
+1. Санах ойн хаяг гэж юу вэ? Хаягийн хэмжээ хэд байдаг вэ?
+https://www3.ntu.edu.sg/HOME/EHCHUA/PROGRAMMING/cpp/cp4_PointerReference.html#:~:text=Each%20address%20location%20typically%20hold,4%20memory%20locations%20are%20required.
+
+2. Доорх кодыг туршиж үр дүнг тайлабарлан бич. 
+char *p1;
+int *p2;
+double *p3;
+cout<<sizeof(p1)<<sizeof(p2)<<sizeof(p3); //хэд хэд гэсэн утга хэвлэж байна вэ?  Яагаад?
+https://www.prepbytes.com/blog/c-programming/size-of-pointer-in-c/#:~:text=Typically%2C%20on%20a%2032%2Dbit,system%2C%20it%20is%208%20bytes.
+
+3. Доорх кодыг туршиж  мөр бүрийн үр дүнг тайлбарлан бич. 
+
+int a=125;
+int *p = &a;
+cout<<p;
+cout<<*p;
+p++;
+cout<<p;
+cout<<*p;
+
+4. Доорх кодын мөр бүрийг тайлбарла.
+
+  int numbers[5];
+  int * p;
+  p = numbers;  *p = 10;
+  p++;  *p = 20;
+  p = &numbers[2];  *p = 30;
+  p = numbers + 3;  *p = 40;
+  p = numbers;  *(p+4) = 50;
+  for (int n=0; n<5; n++)
+  cout << numbers[n] << ", ";
+
+5. хаяган хувьсагч ашиглан (функцын параметер нь хаяган хувьсагч байна) хоёр хувьсагчийн утгыг солих хэрэглэгчийн функц бич.
+
+6. заалтан хувьсагч (функцын параметер нь заалт байна) хоёр хувьсагчийн утгыг солих хэрэглэгчийн функц бич.

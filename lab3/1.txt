@@ -1,0 +1,7 @@
+1. Класс гэж юу болох, онцлог, үүргийн талаар бич.
+Class bol heregelegchiin todorhoilj boloh negen turliin objectiin template hev ym.
+
+Jisheelbel olon turliin restauranuud hoolnii menu hiiher bolvol uur2 hoolni tsesteigees ul hamaaran hoolnii ner, hoolnii une 
+zergiig menu classd hadgalan shine2 objectuud uusgej bolno
+
+Class iin huvisagchdiin turliig public private protected helbereer zarladag ontslogtoi ingesneer objectiin uuseh hureeg hynaj bolno 

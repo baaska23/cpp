@@ -1,0 +1,6 @@
+2. Класс болон объектын ялгаа?
+In summary, a class is a blueprint or template that defines the structure and behavior 
+of objects, whereas an object is a specific instance of a class that encapsulates data 
+and behavior according to the class's blueprint. Classes provide a way to organize and 
+define data types, while objects represent concrete instances of those data types that 
+can be manipulated and interacted with in a program.
