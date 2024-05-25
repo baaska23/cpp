@@ -92,8 +92,8 @@ class Student : public Person {
             cout << "Name: " << getFirstName() << " " << getLastName() << endl;
             cout << "SSNumber: " << getSSN() << endl;
             cout << "Sex: " << getSex() << endl;
-            cout << "SisiID: " << sisiId << endl;
-            cout << "Angi: " << angi << endl;
+            cout << "SisiID: " << getSisiId() << endl;
+            cout << "Angi: " << getAngi() << endl;
         }
 };
 
